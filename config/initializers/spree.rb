@@ -10,6 +10,8 @@ Spree.config do |config|
   config.s3_bucket = 'qapfybucket'
   config.s3_access_key = "AKIAJPQH7NG7IBNFANCQ"
   config.s3_secret = "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"
+ config.admin_interface_logo='admin/bg/logo.png'
 end
 
 Spree.user_class = "Spree::LegacyUser"
+Spree::Config.set(logo: "store/logo.png")
