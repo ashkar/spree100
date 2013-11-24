@@ -32,6 +32,8 @@ gem 'rails_12factor', group: :production
 gem 'spree', :github => "spree/spree", :branch => "1-3-stable"
 gem 'spree_auth_devise', :github => "spree/spree_auth_devise", :branch => "1-3-stable"
 gem 'spree_fancy', :github => "spree/spree_fancy", :branch => "1-3-stable"
+gem 'spree_static_content', :git => 'git://github.com/spree/spree_static_content.git', :branch => '1-3-stable'
+
 #gem 'spree_fancy', :github => "spree/spree_fancy", :branch => "1-3-stable"
 #gem 'spree_attach_document', :github => "harsshhfs/spree_attach_document", :branch => "1-3-stable"
 

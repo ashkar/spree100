@@ -60,6 +60,14 @@ GIT
       compass-rails
       spree_core (~> 1.3.0)
 
+GIT
+  remote: git://github.com/spree/spree_static_content.git
+  revision: 4e29e622726112e4f973bd9973c64b590209caef
+  branch: 1-3-stable
+  specs:
+    spree_static_content (1.3.0.beta)
+      spree_core (~> 1.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -260,5 +268,6 @@ DEPENDENCIES
   spree!
   spree_auth_devise!
   spree_fancy!
+  spree_static_content!
   sqlite3 (= 1.3.5)
   uglifier (>= 1.0.3)
