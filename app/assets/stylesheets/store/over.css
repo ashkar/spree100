@@ -1,0 +1,19 @@
+div#product-images div#main-image {
+	border-radius: 0px;
+}
+
+div#product-images div#main-image img{
+	border-radius: 0px;
+	padding: 10px 10px 10px 2px;
+}
+
+div.product-image a{
+	border-radius:0px 0px 0px 0px;
+} 
+
+div.product-image a img{
+
+	width:180px;
+	height:180px;
+
+}
